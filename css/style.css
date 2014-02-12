@@ -1,0 +1,47 @@
+/* General */
+*{position:relative;}
+body{padding:25px; font-family: arial, sans-serif;}
+#container{padding:25px;box-shadow: 0 0 7px rgba(0,0,0,0.5);}
+.nav{list-style-type:none;margin:0;padding:0;}
+.center{text-align:center;}
+.left{text-align:left;}
+#main-nav{overflow:hidden;}
+#main-nav li{float:left;margin-right:20px;}
+.divider{height:0px;border-bottom:1px solid #000;width:100%;background-color:#000;margin: 3% 0;clear:both;}
+#content{overflow:hidden;}
+h3 a{color:#000;}
+
+/* Projects */
+.projects #project_info_label{cursor:pointer;}
+.projects .chunk-info{left:15px;padding:10px 0;display:block;}
+.projects .project_name{color:#000;}
+.view_project .edit{left:30px;}
+
+/* Invoices */
+.invoices #invoice-h1{float:right;}
+.invoices table{clear:both;}
+.invoices table td{vertical-align:top;}
+.invoices .chunk-date{float:left;clear:left;margin-left:0.1%;width:29%;}
+.invoices .chunk{margin-bottom:2%;float:left;margin-left:4%;width:65%;}
+.invoices .project-name{padding-bottom:1%;float:left;}
+.invoices hr{clear:both;}
+.invoices #invoice-info{float:left; border-top:1px solid #000;border-bottom:1px solid #000;padding: 10px 0;margin:15px 0 25px;}
+.invoices h2{margin-bottom:5px;}
+.invoices header{clear:both;font-weight:bold;overflow:hidden;border-top:1px solid #000;border-bottom:1px solid #000;padding:5px 0;margin-bottom:10px;}
+.invoices header div{float:left;}
+.invoices  .th-1{width:33%;}
+.invoices  .th-2{width:31%;}
+.invoices  .th-3, .invoices .th-4, .invoices .th-5{width:12%;text-align:center;}
+.invoices .project-info{float:left;clear:both;width:100%;}
+.invoices .project-amounts{float:right;width:36.4%;}
+.invoices .project-amounts div{float:left;width:33.3%;text-align:center;}
+.invoices #invoice-total{float:right;text-align:center;font-weight:bold;border:1px solid #000;border-top:0;padding:10px 5px 5px;overflow:hidden;margin-right:1.6%;margin-top:-3%;}
+.invoices .payment-status{font-size:13px;margin-left:15px;}
+
+/* Reports */
+.view_report .report_range{padding: 0 20px;}
+.view_report .range_divider{padding: 0 5px;}
+
+/* Chunks */
+.chunks .type-toggle{cursor:pointer;color:#00E;text-decoration:underline;display:inline;}
+.chunks .flat{display:none;}
